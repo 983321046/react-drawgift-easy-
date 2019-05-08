@@ -1,0 +1,54 @@
+*{ margin: 0; padding: 0}
+    img{ vertical-align: top; border: none; max-width: 100%;}
+    ul,li{ list-style:none;}
+    body{ font-family:'Microsoft YaHei','\5FAE\8F6F\96C5\9ED1'; background: #fff }
+    .m750{ max-width: 750px; margin: 0 auto;  overflow: hidden;background: url(../images/bg.jpg) top center no-repeat; background-size: 100% 100%; position: relative}
+    .slogan{ position: relative;}
+    .slogan > img{ width: 100%;}
+    .slogan .rule-btn{ position: absolute; right: 0.14rem; top: 0.16rem}
+    .slogan .rule-btn img{ width: 1.12rem; height: 0.23rem;}
+    .gifts{ position: relative; margin: -2.2rem auto 0; width: 7.04rem; height: 5.89rem; background: url(../images/gift_cover.png) top center no-repeat; background-size: cover; overflow: hidden;}
+    .gifts ul{display: flex; flex-wrap: wrap; align-content: space-evenly; justify-content: space-around; height: 3.5rem; width: 6.3rem; position: relative; border-radius: 0.1rem; background: #fbbd40}
+    /* .gifts ul{ content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; border-radius: 0.1rem; border: 0.1rem solid #fff} */
+    .gifts li{ justify-content: center; font-size: 0.28rem; color: #fff; height: 1.6rem;}
+    .gifts li > div{  width: 2rem; height: 1.6rem;box-sizing: border-box; position: relative; border: 0.06rem solid #fba530; position: relative;}
+    
+    .gifts li.on div::after{ content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.4) }
+    .gifts li > div p{  height: 1.08rem; background: linear-gradient(to right bottom,#fffbe7,#fbe985); display: flex; width: 100%; justify-content: center; align-items: center; }
+    .gifts li > div::before{ content: '';  position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+    .gifts li > div p img{ max-width: 100%; max-height: 100%; object-fit: contain;}
+    .gifts li > div span{height: 0.4rem; background: #ffb18b; display: block; width: 100%; text-align: center;}
+    .gift-module{width: 6.5rem; height: 3.7rem; background: #fff; border: 0.1rem solid #fff; box-sizing: border-box; border-radius: 0.1rem;margin: 1.46rem auto 0;}
+    .user-opt{font-size: 0; text-align: right}
+    .user-opt img{ cursor: pointer;}
+    .user-opt p{ text-align: center }
+    .user-opt p img{ width: 7.04rem; height: 1.22rem;}
+    .user-opt span{padding-right: 0.4rem;padding-bottom: 0.05rem;}
+    .user-opt span img{ width: 1.08rem; height: 0.45rem;}
+    .prompt-cover{ position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 1; background: rgba(0,0,0,.1)}
+    .prompt-cover .contain{ display: flex; align-items: center; justify-content: center;  height: 100%;}
+    .prompt-cover .contain .text{ background: #001213;width: 80%; max-width: 6rem; border-radius: 10px; position: relative; padding: 0.6rem 0.36rem 0.4rem; box-sizing: border-box}
+    .prompt-cover .close{ position: absolute; right: 0.22rem; top: 0.22rem;}
+    .prompt-cover .close img{ width: 0.3rem; height: 0.3rem;}
+    .rules{ font-size: 0.24rem; color: #fff; text-shadow: 0 5px 5px rgba(0,0,0,.15); font-style: italic}
+    .rules .title{ font-size: 0.28rem;padding-bottom: 0.2rem; text-align: center; text-decoration:underline; padding: 0.4rem 0}
+    .rules .text{ line-height: 2;padding:  0 0.3rem 0.3rem;}
+    .gift-record .title{font-size: 0.28em;color: #fff; text-align: center; margin-bottom: 0.4rem;}
+    .gift-record .no-data{ font-size: 12px; color: #fff; text-align: center; line-height: 2rem}
+    .gift-record ul{ color: #fff;font-size: 0.23rem; max-height: 3.52rem; overflow-x:hidden; overflow-y: auto}
+    .gift-record ul li{ display: flex; align-items: center;  justify-content: space-between; background: #ee6168; border-radius:1rem; border: 2px solid #fff; overflow: hidden; height: 1rem; box-sizing: border-box;margin-bottom: 0.26rem; padding: 0 0.2rem}
+    .gift-record ul li:last-child{margin-bottom: 0;}
+    .gift-record ul li span{ width: 23.7%; height: 0.52rem; display: flex; align-items: center; justify-content: center; background: #fee705; border-radius: 0.52rem; color: #000;font-size: 0.18rem;}
+    .gift-record ul li span.get{background:#f9c9b2}
+    .time-out .title,.no-times .title{font-size: 0.32rem; color: #ddbe85;text-align: center;padding-top: 1em; }
+    .time-out .context,.no-times .context{ color: #fff;text-align: center;font-size: 0.25rem; padding: 2em 0}
+    .time-out .btn,.no-times .btn{ width: 43.3%; border-radius: 10px; background: #ddbe85;font-size: 0.24rem; color: #1d1418; height: 0.68rem; display: flex; align-items: center; justify-content: center; margin: 0 auto}
+    .gift-prompt{text-align: center;}
+    .gift-prompt .title{font-size: 0.34rem; color: #ddbe85;}
+    .gift-prompt .gift-name{font-size: 0.22rem; color: #bea272; padding: 1em 0;}
+    .gift-prompt .prompt-text{ color: #fff;font-size: 0.22rem; padding: 1em 0}
+    .gift-prompt .gift-img{ height: 0.8rem; display: flex; align-items: center; justify-content: center}
+    .gift-prompt .gift-img img{ max-height: 100%}
+    .gift-prompt .btn{width: 43.3%; border-radius: 10px; background: #ddbe85;font-size: 0.24rem; color: #1d1418; height: 0.68rem; display: flex; align-items: center; justify-content: center; margin: 0 auto}
+    .gift-prompt .receive{ background: #000; color: #fff; border-radius: 0.68rem;}
+    .no-scroll{touch-action: none;}
